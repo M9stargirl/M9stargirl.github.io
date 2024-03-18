@@ -1,2 +1,3 @@
-# BOOTCAMP DAY3
+Animal Landing Project made in Day3 of Bootcamp
+
  
