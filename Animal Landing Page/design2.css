@@ -25,6 +25,7 @@ nav a{
 nav a:hover{
     background-color:green;
 }
+
 .logo{
     color:white;
     font-size:24px;
@@ -174,6 +175,91 @@ h2{
     background-color:purple;
     padding:50px 0;
 }
+#services{
+ text-align:center;
+ display:flex;
+background-color: rgb(110, 214, 107);
+background-position: center;
+padding-block-start: 200px;
+      }
+      
+      .service .section-title { margin-block: 10px 40px; }
+
+      .service-list {
+        display: grid;
+        gap: 30px;
+      }
+      
+      .service-card {
+        background-color: rgb(62, 95, 75);
+        text-align: center;
+        padding: 45px 40px;
+        border-radius: 2px;
+        outline: 3px solid transparent;
+        box-shadow: 0 4px 8px rgba(255,255,255,0.9);
+        transition: 0.4 ease-in-out;
+      }
+      
+
+      .service-card .card-icon {
+        color: white;
+        font-size: 7px;
+        max-width: max-content;
+        margin-inline: auto;
+    
+        width:20px;
+        text-align:center;
+      }
+      
+      .service-card .card-title {
+        letter-spacing: -1px;
+        margin-block: 10px;
+      }
+      
+      .service-card .card-text
+      {
+        font-family: 'Courier New', Courier, monospace;
+      }
+      
+      .btn-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        color: white;
+        
+    
+        margin-block-start: 15px;
+      }
+      
+      .btn-link span { text-decoration: underline; }
+
+      .section-title{
+        flex-direction:column;
+      }
+    .container{
+
+    display:flex;
+        align-items:center;
+        justify-content:center;
+        max-width:1200px;
+        margin:0 auto;
+    }
+    .Services-content img{
+        position:absolute;
+        align-items: center;
+        padding:45px 40px;
+        border-radius: 50%;
+        width: 200px;
+        height:200px;
+        object-fit:cover;
+        box-shadow:5px 10px 8px 10px;
+        transition: transform 0.4s ease-in-out;
+    }
+.Services-content img:hover{
+    transform :scale(1.05);
+    
+}
 .about-content{
 display:flex;
 align-items:center;
@@ -186,7 +272,7 @@ margin: 0 auto;
     width:200px;
     height:200px;
     object-fit:cover;
-    box-shadow:5px 10px 8px 10px #0a984e;
+    box-shadow:5px 10px 8px 10px #a6f8ce;
     transition:transform 0.4s ease-in-out;
 }
 .author-image img:hover{
